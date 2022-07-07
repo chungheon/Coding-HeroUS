@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "reignsg",
     "public": "public",
     "ignore": [
       "firebase.json",
