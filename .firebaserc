@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "codinghero-sg"
-  }
+  },
+  "targets": {
+    "codinghero-sg": {
+      "hosting": {
+        "us": [
+          "codinghero-us"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

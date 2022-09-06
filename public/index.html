@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="generator" content="Hugo 0.48" />
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Singapore's 1st Coding Help Platform. Stuck with a programming assignment? Submit and receive a quotation in minutes! Our professional programming help service will help you complete you coding assignments">
-    <title>Coding Hero - Singapore's 1st Coding Help Platform</title>
+    <meta name="description"
+        content="The Best Coding Assistance Platform. Stuck with a programming assignment? Submit and receive a quotation in minutes! Our professional programming help service will help you complete you coding assignments">
+    <title>Coding Hero - Coding Assistance Platform</title>
     <meta name="keywords" content="yeo">
     <link rel="shortcut icon" type=image/png href="./images/herologo.png">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,700" rel="stylesheet">
@@ -20,13 +22,15 @@
     <link rel="stylesheet" href="./css/fab.css">
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/window.css">
-    <meta property="og:title" content="Coding Hero - Singapore's 1st Coding Help Platform">
+    <meta property="og:title" content="Coding Hero - Coding Assistance Platform">
     <meta property="og:url" content="www.codinghero.sg">
-    <meta property="og:description" content="Singapore's 1st Coding Help Platform. Stuck with a programming assignment? Submit and receive a quotation in minutes! Our professional programming help service will help you complete your coding assignments">
-    <meta property="og:site_name" content="Coding Hero Singapore">
+    <meta property="og:description"
+        content="The Best Coding Assistance Platform. Stuck with a programming assignment? Submit and receive a quotation in minutes! Our professional programming help service will help you complete your coding assignments">
+    <meta property="og:site_name" content="Coding Hero">
     <meta property="og:type" content="">
     <meta property="og:image" content="./images/herologo.png">
 </head>
+
 <body>
     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
@@ -48,7 +52,7 @@
         };
         firebase.initializeApp(FirebaseConfig);
         const firestore = firebase.firestore();
-        
+
         async function clickedWhatsapp() {
             await firestore.collection('WhatsApp').add({
                 'timestamp': Date.now()
@@ -65,9 +69,9 @@
                 'timestamp': Date.now()
             })
         }
-        
+
         console.log('i am firebase wooohooo!', Date.now())
-      </script>
+    </script>
     <div class="yeo-slogan">
         <div class="container yeo-header">
             <div class="columns">
@@ -82,9 +86,12 @@
                         <section class="navbar-section hide-sm">
                             <a class="btn btn-link" href="#we-do">What We Do</a>
                             <a class="btn btn-link" href="#we-how">How does it work?</a>
-<!--                             <a class="btn btn-link" href="#team">Reviews</a> -->
-                            <a id="submitHomeworkBtn" class="btn btn-primary btn-hire-me" style="margin-right: 10px;" href="https://request.codinghero.sg/assignment" target="_blank">Submit Homework!</a>
-                            <a style="margin-left: 10px;" class="btn price" href="https://wa.me/6594562307?text=I'm%20interested%20in%20joining%20Coding%20Hero!" target="_blank">Join Us</a>
+                            <!--                             <a class="btn btn-link" href="#team">Reviews</a> -->
+                            <a id="submitHomeworkBtn" class="btn btn-primary btn-hire-me" style="margin-right: 10px;"
+                                href="https://request.codinghero.sg/assignment" target="_blank">Submit Homework!</a>
+                            <a style="margin-left: 10px;" class="btn price"
+                                href="https://wa.me/6594562307?text=I'm%20interested%20in%20joining%20Coding%20Hero!"
+                                target="_blank">Join Us</a>
                         </section>
                     </header>
                 </div>
@@ -95,332 +102,350 @@
                 <div class="column col-7 col-sm-12">
                     <div class="slogan-content">
                         <h1>
-                            <span class="slogan-bold">Expert Programming Help</span> 
-                            <span style="margin-top: 20px; font-size: 20px;" class="slogan-bold">Your coding assignment. Saved at last.</span>
+                            <span class="slogan-bold">Expert Programming Help</span>
+                            <span style="margin-top: 20px; font-size: 20px;" class="slogan-bold">Your coding assignment.
+                                Saved at last.</span>
                         </h1>
-                        <p style="color: black;">Singapore's 1st Coding Help Platform. Expert coders at your disposal.</p>
-                        <a id="submitAssignmentBtn" class="btn btn-primary btn-lg btn-start" style="margin-top: 10px;"  target="_blank" href="https://request.codinghero.sg/assignment">Submit Assignment request</a>
+                        <p style="color: black;">The Best Coding Assistance Platform. Expert coders at your disposal.
+                        </p>
+                        <a id="submitAssignmentBtn" class="btn btn-primary btn-lg btn-start" style="margin-top: 10px;"
+                            target="_blank" href="https://request.codinghero.sg/assignment">Submit Assignment
+                            request</a>
                         <br>
-                        <a id="whatsappBtn" class="btn btn-primary btn-lg btn-start" style="margin-top: 10px;"  target="_blank" href="https://bit.ly/3mMpWhH">
+                        <a id="whatsappBtn" class="btn btn-primary btn-lg btn-start" style="margin-top: 10px;"
+                            target="_blank" href="https://bit.ly/3mMpWhH">
                             <i class="fa fa-whatsapp" style="margin-top: 0px; font-size:25px; color: #00bc9e;"></i>
                             <span>
                                 WhatsApp Us Now!
                             </span>
                         </a>
                         <br>
-                        <a id="telegramBtn" class="btn btn-primary btn-lg btn-start" style="margin-top: 10px;"  target="_blank" href="https://t.me/codingherosg">
-                            <i class="fa fa-telegram" style="margin-top: 0px; font-size:25px; color: cornflowerblue;"></i>
+                        <a id="telegramBtn" class="btn btn-primary btn-lg btn-start" style="margin-top: 10px;"
+                            target="_blank" href="https://t.me/codingherosg">
+                            <i class="fa fa-telegram"
+                                style="margin-top: 0px; font-size:25px; color: cornflowerblue;"></i>
                             <span>
                                 Telegram Us Now!
                             </span>
                         </a>
                         <br>
-                        <a class="btn price" style="margin-top: 10px;" target="_blank" href="https://wa.me/6594562307?text=I'm%20interested%20in%20joining%20Coding%20Hero!">JOIN US AS A CODER!</a>
+                        <a class="btn price" style="margin-top: 10px;" target="_blank"
+                            href="https://wa.me/6594562307?text=I'm%20interested%20in%20joining%20Coding%20Hero!">JOIN
+                            US AS A CODER!</a>
                     </div>
                 </div>
-                    <div class="column col-5 hide-sm">
-                        <img class="slogan-img" src="./images/yeo-feature-1.svg" alt="Team Work">
-                    </div>
+                <div class="column col-5 hide-sm">
+                    <img class="slogan-img" src="./images/yeo-feature-1.svg" alt="Team Work">
                 </div>
             </div>
         </div>
-        <div class="yeo-open-source">
-            <div class="container yeo-body">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h2 class="feature-title">Fuss Free And Affordable Programming Help From Singaporean Coders</h2>
-                    </div>
-                    <div class="column col-10 centered col-sm-12">
-                            <span style="font-size: 40px; font-weight: 600; margin-right: 10px;">200+</span>
-                            <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z" stroke="#008f79" stroke-width="2"></path></svg>
-                            <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z" stroke="#008f79" stroke-width="2"></path></svg>
-                            <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z" stroke="#008f79" stroke-width="2"></path></svg>
-                            <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z" stroke="#008f79" stroke-width="2"></path></svg>
-                            <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z" stroke="#008f79" stroke-width="2"></path></svg>
-                            <span style="font-size: 40px; font-weight: 600; margin-left: 10px;"> Reviews On</span>
-                            <div>
-                                <a href="https://www.carousell.sg/codingherosg/">
-                                    <img style="height: 60px; margin-top: 20px;" src="./images/caorusell.png" alt="">
-                                </a>
-                            </div>
-                        <h2 class="open-source-feature" style="margin-top: 40px; font-size: 25px; font-weight: 500;">
+    </div>
+    <div class="yeo-open-source">
+        <div class="container yeo-body">
+            <div class="columns">
+                <div class="column col-12">
+                    <h2 class="feature-title">Fuss Free And Affordable Programming Help From Singaporean Coders</h2>
+                </div>
+                <div class="column col-10 centered col-sm-12">
+                    <span style="font-size: 40px; font-weight: 600; margin-right: 10px;">200+</span>
+                    <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z"
+                            stroke="#008f79" stroke-width="2"></path>
+                    </svg>
+                    <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z"
+                            stroke="#008f79" stroke-width="2"></path>
+                    </svg>
+                    <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z"
+                            stroke="#008f79" stroke-width="2"></path>
+                    </svg>
+                    <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z"
+                            stroke="#008f79" stroke-width="2"></path>
+                    </svg>
+                    <svg style="height: 40px;" class="" fill="#008f79" fill-rule="nonzero" viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.01 10.54l4.1-8.3a1 1 0 0 1 1.79 0l4.09 8.3 9.15 1.33a1 1 0 0 1 .56 1.7l-6.63 6.46 1.57 9.11a1 1 0 0 1-1.45 1.06L16 25.9l-8.19 4.3a1 1 0 0 1-1.45-1.06l1.57-9.11-6.63-6.46a1 1 0 0 1 .56-1.7L11 10.54z"
+                            stroke="#008f79" stroke-width="2"></path>
+                    </svg>
+                    <span style="font-size: 40px; font-weight: 600; margin-left: 10px;"> Reviews</span>
+                    <h2 class="open-source-feature" style="margin-top: 40px; font-size: 25px; font-weight: 500;">
                         We know you need expert assistance with your programming assignment.
-                        </h2>
-                        <a target="_blank" id="speakWithUs" style="margin-top: 15px;" href="https://bit.ly/3mMpWhH" class="btn btn-lg btn-open-source">Speak With Us Now!</a>
-                    </div>
+                    </h2>
+                    <a target="_blank" id="speakWithUs" style="margin-top: 15px;" href="https://bit.ly/3mMpWhH"
+                        class="btn btn-lg btn-open-source">Speak With Us Now!</a>
                 </div>
             </div>
         </div>
-        <div class="yeo-client">
-            <div class="container yeo-client-list">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h3 class="feature-title">
+    </div>
+    <div class="yeo-client">
+        <div class="container yeo-client-list">
+            <div class="columns">
+                <div class="column col-12">
+                    <h3 class="feature-title">
                         Our Clients Come From...
                     </h3>
-                        <div class="client-logo">
-                            <a href="https://www.suss.edu.sg/" target="_blank">
+                    <div class="client-logo">
+                        <a href="https://www.suss.edu.sg/" target="_blank">
                             <img src="./images/schools/SUSS.png" height="60px" alt="">
                         </a>
-                            <a href="https://www.kaplan.com.sg/" target="_blank">
+                        <a href="https://www.kaplan.com.sg/" target="_blank">
                             <img src="./images/schools/KAP.png" height="60px" alt="">
                         </a>
-                            <a href="https://www.rmit.edu.au/" target="_blank">
+                        <a href="https://www.rmit.edu.au/" target="_blank">
                             <img src="./images/schools/RMIT.png" height="60px" alt="">
                         </a>
-                            <a href="https://www.murdoch.edu.au/" target="_blank">
+                        <a href="https://www.murdoch.edu.au/" target="_blank">
                             <img src="./images/schools/MU.png" height="60px" alt="">
                         </a>
-                            <a href="https://www.nus.edu.sg/" target="_blank">
+                        <a href="https://www.nus.edu.sg/" target="_blank">
                             <img src="./images/schools/NUS.png" height="80px" alt="">
                         </a>
-                            <a href="https://www.ntu.edu.sg/" target="_blank">
+                        <a href="https://www.ntu.edu.sg/" target="_blank">
                             <img src="./images/schools/NTU.png" height="80px" alt="">
                         </a>
                         <a href="https://www.sim.edu.sg/" target="_blank">
                             <img src="./images/schools/SIM.png" height="80px" alt="">
                         </a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="yeo-do" id="we-do">
-            <div class="container yeo-body">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h2 class="feature-title">What We Do</h2>
+    </div>
+    <div class="yeo-do" id="we-do">
+        <div class="container yeo-body">
+            <div class="columns">
+                <div class="column col-12">
+                    <h2 class="feature-title">What We Do</h2>
+                </div>
+                <div class="column col-4 col-sm-12">
+                    <div class="yeo-do-content">
+                        <img src="./images/medal.png" height="150px" alt="Smart Attendance">
+                        <h3>Quality Work</h3>
+                        <p>We have curated the best coders from around Singapore. Quality work guaranteed.</p>
                     </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="yeo-do-content">
-                            <img src="./images/medal.png" height="150px" alt="Smart Attendance">
-                            <h3>Quality Work</h3>
-                            <p>We have curated the best coders from around Singapore. Quality work guaranteed.</p>
-                        </div>
+                </div>
+                <div class="column col-4 col-sm-12">
+                    <div class="yeo-do-content">
+                        <img src="./images/code.png" height="150px" alt="Complete Payroll">
+                        <h3>Everything coding related</h3>
+                        <p>Coding assignments, projects, web and mobile apps. We've got you covered. </p>
                     </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="yeo-do-content">
-                            <img src="./images/code.png" height="150px" alt="Complete Payroll">
-                            <h3>Everything coding related</h3>
-                            <p>Coding assignments, projects, web and mobile apps. We've got you covered. </p>
-                        </div>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="yeo-do-content">
-                            <img src="./images/clock.png" height="150px" alt="Biometric Clock in/out">
-                            <h3>Fast Response</h3>
-                            <p>Submit your request and receive a quotation in minutes! 90% of our projects are completed within a day!</p>
-                        </div>
+                </div>
+                <div class="column col-4 col-sm-12">
+                    <div class="yeo-do-content">
+                        <img src="./images/clock.png" height="150px" alt="Biometric Clock in/out">
+                        <h3>Fast Response</h3>
+                        <p>Submit your request and receive a quotation in minutes! 90% of our projects are completed
+                            within a day!</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="yeo-do" id="we-how" style="background-color: #EFEFEF;">
-            <div class="container yeo-body">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h2 class="feature-title">How does it work?</h2>
+    </div>
+    <div class="yeo-do" id="we-how" style="background-color: #EFEFEF;">
+        <div class="container yeo-body">
+            <div class="columns">
+                <div class="column col-12">
+                    <h2 class="feature-title">How does it work?</h2>
+                </div>
+                <div class="column col-4 col-sm-12">
+                    <div class="yeo-do-content">
+                        <img src="./images/how1.png" height="150px" alt="Smart Attendance">
+                        <h3>Submit assignment request</h3>
+                        <p>Use our <b><a target="_blank" href="https://request.codinghero.sg/assignment">form</a> </b>to
+                            submit a request. We will respond with a quotation within minutes!</p>
                     </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="yeo-do-content">
-                            <img src="./images/how1.png" height="150px" alt="Smart Attendance">
-                            <h3>Submit assignment request</h3>
-                            <p>Use our <b><a target="_blank" href="https://request.codinghero.sg/assignment">form</a> </b>to submit a request. We will respond with a quotation within minutes!</p>
-                        </div>
+                </div>
+                <div class="column col-4 col-sm-12">
+                    <div class="yeo-do-content">
+                        <img src="./images/how2.png" height="150px" alt="Complete Payroll">
+                        <h3>Sit back and let us code</h3>
+                        <p>Breathe a sigh of relief as we code out your assignment for you according to your
+                            specifications. </p>
                     </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="yeo-do-content">
-                            <img src="./images/how2.png" height="150px" alt="Complete Payroll">
-                            <h3>Sit back and let us code</h3>
-                            <p>Breathe a sigh of relief as we code out your assignment for you according to your specifications. </p>
-                        </div>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="yeo-do-content">
-                            <img src="./images/how3.png" height="150px" alt="Biometric Clock in/out">
-                            <h3>Review completed code</h3>
-                            <p>Upon completion, check and review your code! You'll still be able to request for minor amends after we have completed.</p>
-                        </div>
+                </div>
+                <div class="column col-4 col-sm-12">
+                    <div class="yeo-do-content">
+                        <img src="./images/how3.png" height="150px" alt="Biometric Clock in/out">
+                        <h3>Review completed code</h3>
+                        <p>Upon completion, check and review your code! You'll still be able to request for minor amends
+                            after we have completed.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="yeo-open-source">
-            <div>
-                <div class="columns">
-                    <div class="column col-12">
-                        <h2 class="feature-title">Over 2000+ satisfied clients!</h2>
-                    </div>
-                </div>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_1.png" alt=""></div>
-                        <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_2.png" alt=""></div>
-                        <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_3.png" alt=""></div>
-                        <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_4.png" alt=""></div>
-                        <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_5.png" alt=""></div>
-                    </div>
+    </div>
+    <div class="yeo-open-source">
+        <div>
+            <div class="columns">
+                <div class="column col-12">
+                    <h2 class="feature-title">Over 2000+ satisfied clients!</h2>
                 </div>
             </div>
-        </div>  
-        <div class="yeo-client">
-            <div class="container yeo-client-list">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h3 class="feature-title">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_1.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_2.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_3.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_4.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img height="400" src="./images/reviews/Good Carousell Reviews_5.png"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="yeo-client">
+        <div class="container yeo-client-list">
+            <div class="columns">
+                <div class="column col-12">
+                    <h3 class="feature-title">
                         Programming Language Proficiency
                     </h3>
-                        <div class="client-logo">
-                            <img src="./images/proglang/java.png" height="40px" alt="">
-                            <img src="./images/proglang/C.png" height="40px" alt="">
-                            <img src="./images/proglang/python.png" height="40px" alt="">
-                            <img src="./images/proglang/mysql.png" height="40px" alt="">
-                            <img src="./images/proglang/asp.png" height="40px" alt="">
-                        </div>
-                        <div class="client-logo">
-                            <img src="./images/proglang/R.png" height="40px" alt="">
-                            <img src="./images/proglang/c++.svg" height="40px" alt="">
-                            <img src="./images/proglang/matlab.png" height="40px" alt="">
-                            <img src="./images/proglang/php.png" height="40px" alt="">
-                            <img src="./images/proglang/htmlcssjs.png" height="40px" alt="">
-                            <img src="./images/proglang/arv.png" height="40px" alt="">
-                        </div>
+                    <div class="client-logo">
+                        <img src="./images/proglang/java.png" height="40px" alt="">
+                        <img src="./images/proglang/C.png" height="40px" alt="">
+                        <img src="./images/proglang/python.png" height="40px" alt="">
+                        <img src="./images/proglang/mysql.png" height="40px" alt="">
+                        <img src="./images/proglang/asp.png" height="40px" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="./images/proglang/R.png" height="40px" alt="">
+                        <img src="./images/proglang/c++.svg" height="40px" alt="">
+                        <img src="./images/proglang/matlab.png" height="40px" alt="">
+                        <img src="./images/proglang/php.png" height="40px" alt="">
+                        <img src="./images/proglang/htmlcssjs.png" height="40px" alt="">
+                        <img src="./images/proglang/arv.png" height="40px" alt="">
                     </div>
                 </div>
             </div>
-        </div>     
-        <div class="yeo-open-source">
-            <div class="container yeo-body">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h2 class="feature-title">For Singaporeans, by Singaporeans.</h2>
-                    </div>
-                    <div class="column col-10 centered col-sm-12">
-                        <h2 class="open-source-feature">
-                        Developed with ❤️ in 🇸🇬
+        </div>
+    </div>
+    <div class="yeo-open-source">
+        <div class="container yeo-body">
+            <div class="columns">
+                <div class="column col-10 centered col-sm-12">
+                    <h2 class="open-source-feature">
+                        Developed with ❤️ for Everyone
                     </h2>
-                        <a href="https://www.instagram.com/codingherosg/" class="btn btn-lg btn-open-source">Follow us on Instagram!</a>
+                    <a href="https://www.instagram.com/codingherosg/" class="btn btn-lg btn-open-source">Follow us on
+                        Instagram!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="yeo-footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column col-3 col-sm-6">
+                    <div class="yeo-footer-content">
+                        <h4>Reach Us Here!</h4>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a>hello@codinghero.sg</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="telegramBtn2" href="https://t.me/codingherosg">Telegram</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.instagram.com/codingherosg/">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column col-3 col-sm-6">
+                    <div class="yeo-footer-content">
+                        <h4>Terms of Use</h4>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="/termsandconditions.html">Terms & Conditions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/refundpolicy.html">Refund Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://bit.ly/CoderGuideV1">Coder Guide</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column col-3 col-sm-6">
+                </div>
+                <div class="column col-3 col-sm-6">
+                    <div class="yeo-footer-content">
+                        <h4>Coding Hero Pte Ltd</h4>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                UEN: 201943341D
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="yeo-client">
-            <div class="container yeo-body">
-                <div class="columns">
-                    <div class="column col-10 centered col-sm-12">
-                        <h3 style="font-weight: 200; font-size: 35px;" class="open-source-feature">
-                        <span>As seen on </span>
-                        <div style="margin-top: 20px;">
-                            <a href="https://www.todayonline.com/singapore/some-ghostwriters-see-growing-demand-services-school-assignments-projects-and-even-exams-1896966">
-                                <img style="height: 70px;" src="./images/today.svg" alt="">
-                            </a>
-                        </div> 
-                    </h3>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <div class="yeo-footer">
-            <div class="container">
-                <div class="columns">
-                    <div class="column col-3 col-sm-6">
-                        <div class="yeo-footer-content">
-                            <h4>Reach Us Here!</h4>
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a>hello@codinghero.sg</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a id="telegramBtn2" href="https://t.me/codingherosg">Telegram</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://www.instagram.com/codingherosg/">Instagram</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://www.carousell.sg/codingherosg/">Carousell</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="column col-3 col-sm-6">
-                        <div class="yeo-footer-content">
-                            <h4>Terms of Use</h4>
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a href="/termsandconditions.html">Terms & Conditions</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="/refundpolicy.html">Refund Policy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://bit.ly/CoderGuideV1">Coder Guide</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="column col-3 col-sm-6">
-                    </div>
-                    <div class="column col-3 col-sm-6">
-                        <div class="yeo-footer-content">
-                            <h4>Coding Hero Pte Ltd</h4>
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    UEN: 201943341D
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
-            <a id="whatsappFloating" target="_blank" href="https://bit.ly/3mMpWhH" class="float">
-                <i class="fa fa-whatsapp" style="margin-top: 5px; font-size:60px; color: #00bc9e;"></i>
-            </a>
-            <div class="label-container">
-            <div class="label-text">24hr Helpdesk! Contact Us Now!</div>
-            </div>
-            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-            <script charset="utf-8" type="text/javascript" src="./js/swiper.js"></script>
-        <script>
-            var waBtn = document.getElementById('whatsappBtn')
-            var teleBtn = document.getElementById('telegramBtn')
-            var teleBtn2 = document.getElementById('telegramBtn2')
-            var waF = document.getElementById('whatsappFloating')
-            var speak = document.getElementById('speakWithUs')
+    <a id="whatsappFloating" target="_blank" href="https://bit.ly/3mMpWhH" class="float">
+        <i class="fa fa-whatsapp" style="margin-top: 5px; font-size:60px; color: #00bc9e;"></i>
+    </a>
+    <div class="label-container">
+        <div class="label-text">24hr Helpdesk! Contact Us Now!</div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="./js/swiper.js"></script>
+    <script>
+        var waBtn = document.getElementById('whatsappBtn')
+        var teleBtn = document.getElementById('telegramBtn')
+        var teleBtn2 = document.getElementById('telegramBtn2')
+        var waF = document.getElementById('whatsappFloating')
+        var speak = document.getElementById('speakWithUs')
 
-            var submitAssignment = document.getElementById('submitAssignmentBtn')
-            var submitHomework = document.getElementById('submitHomeworkBtn')
+        var submitAssignment = document.getElementById('submitAssignmentBtn')
+        var submitHomework = document.getElementById('submitHomeworkBtn')
 
-            waBtn.addEventListener('click', function() {
-                console.log('Whatsapp Clicked!!!')
-                clickedWhatsapp()
-            })
-            teleBtn.addEventListener('click', function() {
-                console.log('Tele Clicked!!!')
-                clickedTelegram()
-            })
-            teleBtn2.addEventListener('click', function() {
-                console.log('Tele Clicked fk!!!')
-                clickedTelegram()
-            })
-            waF.addEventListener('click', function() {
-                console.log('Whatsapp Clicked!!!')
-                clickedWhatsapp()
-            })
-            speak.addEventListener('click', function() {
-                console.log('Whatsapp Clicked!!!')
-                clickedWhatsapp()
-            })
-            submitAssignment.addEventListener('click', function() {
-                console.log('Submit Clicked!!!')
-                clickedSubmitRequest()
-            })
-            submitHomework.addEventListener('click', function() {
-                console.log('Submit Clicked!!!')
-                clickedSubmitRequest()
-            })
-        </script>
+        waBtn.addEventListener('click', function () {
+            console.log('Whatsapp Clicked!!!')
+            clickedWhatsapp()
+        })
+        teleBtn.addEventListener('click', function () {
+            console.log('Tele Clicked!!!')
+            clickedTelegram()
+        })
+        teleBtn2.addEventListener('click', function () {
+            console.log('Tele Clicked fk!!!')
+            clickedTelegram()
+        })
+        waF.addEventListener('click', function () {
+            console.log('Whatsapp Clicked!!!')
+            clickedWhatsapp()
+        })
+        speak.addEventListener('click', function () {
+            console.log('Whatsapp Clicked!!!')
+            clickedWhatsapp()
+        })
+        submitAssignment.addEventListener('click', function () {
+            console.log('Submit Clicked!!!')
+            clickedSubmitRequest()
+        })
+        submitHomework.addEventListener('click', function () {
+            console.log('Submit Clicked!!!')
+            clickedSubmitRequest()
+        })
+    </script>
 </body>
 
 </html>
